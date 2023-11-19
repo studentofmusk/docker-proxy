@@ -1,0 +1,18 @@
+{
+  "name": "go-cel-catcher",
+  "version": "1.0.0",
+  "description": "Get Celebrities Region wise",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^8.0.1",
+    "nodemon": "^3.0.1"
+  },
+  "author": "Farooq Khan",
+  "license": "ISC"
+}
