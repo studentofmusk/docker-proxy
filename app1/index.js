@@ -17,7 +17,7 @@ app.use(express.urlencoded({extended:true}));
 
 //Routes
 app.get('/', (req, res)=>{
-    res.send("site1 running...")
+    res.send("naan ready dha varava running...")
 })
 
 app.listen(PORT, ()=>console.log("Server is running at port "+ PORT));
